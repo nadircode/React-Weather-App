@@ -4,7 +4,6 @@ import reactDom from 'react-dom';
 import {Config , YOUR_SECRET_API_KEY} from './Config.js';
 
 function App() {
-  console.log(YOUR_SECRET_API_KEY);
   const key = YOUR_SECRET_API_KEY ;
   const ColoredLine = ({ color }) => (
     <hr
